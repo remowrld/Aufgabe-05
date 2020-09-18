@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-4">
+            </div>
+
+            <div class="col-lg-1">
+                <p>Andrede:</p>
+            </div>
+
+            <div class="col-lg-2">
+                <label>
+                    <input type="radio" name="rbuttons">
+                    Herr
+                </label>
+            </div>
+
+            <div class="col-lg-2">
+                <label>
+                    <input type="radio" name="rbuttons">
+                    Frau
+                </label>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="Vorname">Vorname:</label>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" id="Vorname" class="textbox" placeholder="Max" autofocus>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="Name">Name:</label>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" id="Name" class="textbox" placeholder="Muster">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="Datum">Datum:<label>
+            </div>
+            <div class="col-lg-3">
+                <input type="date" class="textbox" id="Datum">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="Strasse">Strasse</label>
+            </div>
+            <div class="col-lg-3">
+                <input type="text" class="textbox" placeholder="Musterstrasse 12" id="Strasse">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="PLZ">PLZ:</label>
+            </div>
+            <div class="col-lg-1">
+                <input type="text" class="textbox" placeholder="8320" id="PLZ">
+            </div>
+            <div class="col-lg-1">
+                <label for="Ort">Ort:</label>
+            </div>
+            <div class="col-lg-1">
+                <input type="text" class="textbox" placeholder="Fehraltorf" id="Ort">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-1">
+                <label for="Land">Land:</label>
+            </div>
+            <div class="col-lg-3">
+                    <select name="Land" class="textbox" id="Land">
+                        <option value="" disabled selected>Wählen Sie ein Land aus</option>
+                        <option value="Schweiz">Schweiz</option>
+                        <option value="Andere">Andere</option>
+                        <option value="Wake Island">Wake Island</option>
+                        <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Zaire">Zaire</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
